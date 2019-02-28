@@ -1,0 +1,99 @@
+---
+title: "BULLETIN DE VISITE DE CLASSE"
+output:
+  word_document:
+    reference_docx: "template.docx"
+  pdf_document:
+    fig_caption: true
+    keep_tex: true
+params:
+  insp: NA
+  ecole : NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+  data_bulletin %>%
+    filter(identification_inspection==params$insp & etablissement==params$ecole) -> inspection
+
+```
+
+
+
+
+### INSPECTION
+
+*DRE* : `r toupper(inspection$identification_region)`
+
+
+*IEPP*[^1] : `r inspection$identification_inspection`
+
+[^1]:`r inspection$deviceid`
+
+*Date*  : `r inspection$Date_visite`
+
+
+
+### IDENTITE DE L'ECOLE
+
+__Ecole__ :  `r inspection$identification_nom_etablissement`
+
+__Code Ecole__: `r inspection$identification_code`
+
+__Nom et prenoms__: `r inspection$enseignant_nom_prenom` 
+
+
+
+### IDENTITE DE L'ENSEIGNANT
+
+
+
+|   |   |   |   | 
+|:---|---|:---|---|
+|__Nom et prenoms__:   |`r inspection$enseignant_nom_prenom`    |__Sexe__:  | `r inspection$enseignant_sexe`  |   
+|__Date de naissance__ :  |`r inspection$enseignant_date_naissance` | __Lieu de naissance__ :   | `r inspection$enseignant_lieu_naissance`  |   
+|__Numero matricule__   | `r inspection$enseignant_num_matricule`  |   |   |   
+|__Diplomes Academiques__ :| `r inspection$enseignant_diplom_academique`  | __Diplomes Professionnels__ :|`r inspection$enseignant_diplom_professionnel`   |   
+| __Anciennete dans le métier__:   | `r inspection$enseignant_ancien_service`  | __Anciennete dans le cours__ : |  `r inspection$enseignant_ancien_cours` |   
+|   |   |   |   |   
+
+
+
+
+### CONDITIONS DE TRAVAIL
+
+
+
+|   |   |   |   |   
+|:---|---|---|---|
+|__Classe__  | `r inspection$enseignant_classe`  |__Type de cours__  | `r ifelse(inspection$condition_courstype=="coursunik","Cours Unique","Cours Jumele")` |      
+|__Effectif Garcons__  | `r inspection$condition_effect_garcon`  |__Effectif Filles__ | `r inspection$condition_effect_fille`  |   
+|  |   |  __Nombre de Table bancs__ | `r inspection$condition_nbre_tab_bancs`  |   
+| __Nombre Manuels Math__  |`r inspection$condition_nbre_man_calc`   |__Nombre manuels Francais__ |`r inspection$condition_nbre_man_lec`   |
+|__Type de Tableau:__   |  `r ifelse(inspection$condition_tableau=="tableau_mur","Tableau mural","chevalet")` |   |   |
+|   |   |   |   |
+
+                                            
+### RESUME DES ACTIVITES
+
+> __Activite 1__ `r inspection$resume_activite_activite1` 
+
+> __Activite 2__ `r inspection$resume_activite_activite2` 
+
+> __Activite 3__ `r inspection$resume_activite_activite3` 
+
+> __Activite 4__ `r inspection$resume_activite_activite4` 
+
+### OBSERVATIONS GENERALES
+
+
+> __Observation Generales__ `r inspection$note_finale_observation` 
+
+
+### NOTE SUR 20
+
+> __Note sur vingt  :  __       `r inspection$note_finale_note`
+
+
+

@@ -1,0 +1,12 @@
+name: contrat
+title: contrat
+username:
+account: knsamati
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 532081
+bundleId: 1720675
+url: https://knsamati.shinyapps.io/contrat/
+when: 1543236044.01713
+asMultiple: FALSE
+asStatic: FALSE

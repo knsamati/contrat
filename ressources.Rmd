@@ -1,0 +1,44 @@
+---
+title: "Les Resssources"
+author: "Inspection"
+date: "22/10/2018"
+output:
+  html_document:
+    theme: united
+    highlight: tango
+---
+
+
+# Pourquoi les contrats de performance
+
+L’amélioration de l’efficacité et de la qualité des services d’éducation s’observe à travers l’amélioration des acquis des élèves, la mobilité des enfants au sein du sous-système, la réduction des redoublements, etc. La plupart des indicateurs de qualité sont en déclin depuis un certain temps. Ce déclin de la qualité a été confirmé par les résultats aux évaluations du PASEC et aux évaluations nationales. De plus, même après six ans d’enseignement primaire, une bonne proportion des adultes Togolais (28 %) ne sait toujours pas lire.
+
+La première composante du projet vise l’amélioration de la qualité de l’enseignement préscolaire et primaire à travers :
+
+* L’élaboration de nouveaux curricula et manuels scolaires ;
+*	La formation des enseignants sur les nouveaux curricula et la sensibilisation sur la réduction du redoublement ;
+*	La subvention de fonctionnement aux écoles et la mise en œuvre des activités de recherche pour améliorer la qualité des écoles primaires.
+
+La sous-composantes 3 appuie un financement additionnel à travers les contrats de performance pour renforcer les capacités des IEPP sur les points suivants : (i) l’amélioration des fréquences de visite des classes ; (ii) la formation des enseignants en didactiques de français et de mathématiques et (iii) l’amélioration de la qualité du format des rapports d’inspection des écoles et les fiches de saisie automatique des données à travers les tablettes. 
+Pour ce faire, toutes les IEPP sont dotées de tablettes pour enregistrer les données de visite de classe en temps réel, ce qui leur permet, en principe de réaliser davantage de visites de classe.
+
+# Comment remplir les grilles et les bulletins
+
+Pour remplir les grilles lors d'une sortie pédagogique, il y a plusieurs méthodes: à partir du navigateur et à partir de l'application Kobocollect disponible sur playstore. (plus de details dans le guide d'utilisation des applications installées sur les tablettes).
+Nous recommandons vivement d'utiliser la méthode avec chrome.
+Il suffit d'ouvrir les adresses suivantes dans chrome :
+
+- Pour la grille de visite: https://ee.humanitarianresponse.info/x/#YSUK;
+- Pour le bulletin de sortie: https://ee.humanitarianresponse.info/x/#Y9Xh
+
+Vous pouvez enregistrer un raccourci sur l'écran d'accueil de la tablette ou du téléphone.
+
+
+# Quelques documents de mise en oeuvre des contrats de performance
+
+Ci-après des liens vers quelques documents
+
+* Instructions relatives à la mise en oeuvre des contrats de performance:  [instruction](https://www.dropbox.com/s/6ifjxlmf6f7tw4u/instruction.pdf?dl=0)
+* Bulletin des sorties pédagogiques: [bulletin](https://www.dropbox.com/s/b4cjezim6lfjuo7/bulletin.pdf?dl=0)
+* Grille de visite de classe: [grille](https://www.dropbox.com/s/kg3dr96j8x7zh5i/grille.pdf?dl=0)
+* Guide d'utlisation des tablettes: [guide](https://www.dropbox.com/s/uoqvk6m4mvpneza/guide_utilisation_tablette.pdf?dl=0)

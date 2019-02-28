@@ -1,0 +1,64 @@
+---
+title: "BULLETIN DE VISITE DE CLASSE"
+author: "IEPP"
+date: "`r format(Sys.Date(),'%d %B, %Y')`"
+params:
+  n: NA
+output:
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### IDENTITE DE L'ECOLE
+
+
+
+
+
+
+### IDENTITE DE L'ENSEIGNANT
+
+
+
+
+### CONDITIONS DE TRAVAIL
+
+
+
+ 
+                                            
+### RESUME DES ACTIVITES
+
+```{r}
+# The `params` object is available in the document.
+
+params$n
+
+```
+
+
+
+
+
+### OBSERVATIONS GENERALES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
